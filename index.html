@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prathiba Narayan</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://rawcdn.githack.com/albburtsev/jquery.typist/f4f429fad5bab374b1cf01da52ce4e469758afe6/dist/jquery.typist.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <section id="intro">
+      <img src="https://i.imgur.com/StySMNg.jpg" alt="Prathiba" />
+
+      <div class="content">
+        <h3>Hello, I am</h3>
+        <h1>Prathiba Narayan</h1>
+        <h2>I am a <span></span></h2>
+        <div class="socials">
+          <a target="_blank" href="https://www.instagram.com/prathiba_11/?hl=en"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/prathiba-narayan-8432471b9/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://www.codechef.com/users/prathiba_n"
+            ><i class="fa fa-code" aria-hidden="true"></i
+          ></a>
+          <a target="_blank" href="https://github.com/caramelpudding11"
+            ><i class="fa fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h2 id="about">About Me</h2>
+            <p style="font-size: 18px;">
+              I am Prathiba Narayan, a fresher from Vellore Institiute of
+              Technology,Chennai. I have successfully completed class 12 (phew)
+              from PSBB Schools, Chennai and hope to complete college too! I am
+              really interested in programming in general and hope to know
+              exactly what i want to do soon. I hope to work on projects that
+              will help me learn more and that will solve real world problems.
+            </p>
+            <p style="font-size: 18px;">
+              I’m not sure of what field I specifically want to pursue in
+              programming yet but I’m willing to learn, explore and take all
+              opportunities that come my way to make great projects in the
+              future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h2>Experience I have/Workshops I've attended</h2>
+            <p style="font-size: 18px;">
+              Recently, all the experience that I’ve gotten are through online
+              courses like CS50 by Harvard and workshops on Web Development 😉,
+              open source and a few on competitive programming which motivated
+              me to participate in contests.
+            </p>
+            <p style="font-size: 18px;">
+              Apart from these, I have won a few programming competitions at the
+              school level where we had to make a game on C++. This was the
+              biggest project I've created on C++. I have also conducted and
+              organised events and competitions for our school cultural
+              programmes and was also the official photographer for some of
+              these events.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <h2>Extracurricular Interests and Hobbies</h2>
+            <p style="font-size: 18px;">
+              Quarantine has opened doors in the field of baking and cooking
+              because of the fact that I'm not allowed to eat out often :(
+              Starting from cakes, doughnuts, lasagnes and cookies, I’ve made it
+              all. Binging movies is one of my favourite things to do and I love
+              discussing different opinions on these movies with others.
+            </p>
+            <p style="font-size: 18px;">
+              I have been learning classical dance for almost 9 years now and
+              have given various performances. Over the years I have also won
+              prizes in track and field events in our school sports day and I
+              enjoy cycling and watching cricket :P One of my favourite hobbies
+              is also nature photography and well taking photos in general which
+              is one thing I will never stop doing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h2>Contact Me</h2>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="col-md-8">
+      <div class="contact-wrap">
+        <h4 class="text-left m-top-0" style="color: white;">
+          You can Email me at - prathibalakshmi.n2020@vitstudent.ac.in or fill
+          up the form below!
+        </h4>
+
+        <form
+          role="form"
+          id="contactForm"
+          class="contact-form"
+          data-toggle="validator"
+          novalidate="true"
+        >
+          <div id="msgSubmit" class="h3 text-center hidden"></div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group has-error">
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Name"
+                  required=""
+                  data-error="Please enter your name"
+                />
+                <div class="help-block with-errors">
+                  <ul class="list-unstyled"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="email form-control"
+                  id="email"
+                  placeholder="Email"
+                  required=""
+                  data-error="Please enter your email"
+                />
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="controls">
+              <input
+                type="text"
+                id="msg_subject"
+                class="form-control"
+                placeholder="Subject"
+                required=""
+                data-error="Please enter your message subject"
+              />
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="controls">
+              <textarea
+                id="message"
+                rows="7"
+                placeholder="Message"
+                class="form-control"
+                required=""
+                data-error="Write your message"
+              ></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+          <button
+            type="submit"
+            id="submit"
+            class="btn solid-btn-dark btn-radius disabled"
+            style="
+              pointer-events: all;
+              cursor: pointer;
+              color: white;
+              font-size: 18px;
+            "
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
